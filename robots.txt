@@ -1,0 +1,19 @@
+
+User-agent: Googlebot
+Disallow: /ajax/
+Disallow: /search/
+Disallow: /indeks/
+
+User-agent: *
+Allow: /
+Sitemap: https://www.tempo.co/sitemap.xml
+
+User-agent: grapeshot
+Allow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: OpenAI
+Disallow: /
+		
